@@ -8,6 +8,7 @@ pipeline{
             }
             steps{
                 echo "Deploying to Dev environment"
+                echo "Deploying one more env"
             }
         }
         stage("Deploy Staging"){
